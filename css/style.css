@@ -57,8 +57,9 @@ p { line-height: 22px }
 .navbar-toggle i { color: #fff; }
 
 .navbar-brand {
-  padding:14px;
-  color: #fff;
+    padding: 14px;
+    color: #fff;
+    margin-top: 8px;
 }
 
 .nav li a:hover {
