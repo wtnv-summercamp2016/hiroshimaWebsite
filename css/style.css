@@ -4,6 +4,26 @@ Template Version: 1.0
 Author: cosmic
 Website:
 */
+
+/* crowdfunding widget */
+
+.crowdfunding {
+    position:absolute;
+    right:50%;
+    margin-right:-80px;
+    bottom:28px;
+}
+
+.crowdfundingButton {
+    position: absolute;
+    text-align: center;
+    margin-bottom: 28px;
+    bottom: 195px;
+    right: 50%;
+    margin: 0px -146px 0px 0px;
+}
+
+
 body {
     color: #797979;
     font-family: 'Lato', sans-serif;
