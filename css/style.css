@@ -88,7 +88,7 @@ border-radius: 4px;
 -o-transform: translate(0, 0);
 -ms-transform: translate(0, 0);
 transform: translate(0, 0);
-opacity: 1;
+opacity: 0.9;
 }
 .is-active.modal-window {
 display: block\9;
@@ -105,7 +105,7 @@ margin-left: -155px;
 width: 310px;
 overflow-x: hidden;
 border-radius: 2px;
-background: #fff;
+background: rgba(0,0,0,0);
 -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
 box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
 }
@@ -134,17 +134,18 @@ top: 85px;
 left: 50%;
 z-index: 20;
 margin-left: 129px;
-background: #555;
+background: rgba(0,0,0,0.6);
 border-radius: 2px;
 padding: 2px 8px;
 font-size: 1.2em;
 text-decoration: none;
 text-indent: 0;
+opacity:0.6;
 }
 .modal-window {
--webkit-transition: opacity 0.4s;
--o-transition: opacity 0.4s;
-transition: opacity 0.4s;
+-webkit-transition: opacity 2s;
+-o-transition: opacity 2s;
+transition: opacity 2s;
 }
 
 .crowdFundingTxt {
