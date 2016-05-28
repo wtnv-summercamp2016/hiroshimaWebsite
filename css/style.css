@@ -5,25 +5,6 @@ Author: cosmic
 Website:
 */
 
-/* crowdfunding widget */
-
-.crowdfunding {
-    position:absolute;
-    right:50%;
-    margin-right:-80px;
-    bottom:28px;
-}
-
-.crowdfundingButton {
-    position: absolute;
-    text-align: center;
-    margin-bottom: 28px;
-    bottom: 195px;
-    right: 50%;
-    margin: 0px -146px 0px 0px;
-}
-
-
 body {
     color: #797979;
     font-family: 'Lato', sans-serif;
@@ -99,9 +80,12 @@ display: block\9;
 .modal-window .modal-inner {
 position: absolute;
 top: 110px;
-left: 50%;
+right: 5px;
 z-index: 20;
+margin-left: 0px;
+/*
 margin-left: -155px;
+*/
 width: 310px;
 overflow-x: hidden;
 border-radius: 2px;
@@ -125,7 +109,7 @@ left: 0;
 right: 0;
 bottom: 0;
 z-index: 10;
-background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAEElEQVR42gEFAPr/AAAAAMwA0QDNTiUx4gAAAABJRU5ErkJggg==");
+background: rgba(0,0,0,0.5);
 }
 .modal-window .modal-close:after {
 content: '\00d7';
@@ -2241,6 +2225,16 @@ ol.unstyled {
 }
 /* Small devices (tablets, up to 768px) */
 @media (max-width: 768px) {
+    
+    .modal-window .modal-inner {
+        position: absolute;
+        top: 110px;
+        left: 50%;
+        z-index: 20;
+        margin-left: -155px;
+    }
+
+    
     /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
     #quote-carousel .carousel-indicators { bottom: -20px !important }
     #quote-carousel .carousel-indicators li {
