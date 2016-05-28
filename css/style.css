@@ -115,9 +115,11 @@ background: rgba(0,0,0,0.4);
 content: '\00d7';
 position: absolute;
 top: 85px;
-left: 50%;
+right :5px;
 z-index: 20;
+/*
 margin-left: 129px;
+*/
 background: rgba(0,0,0,0.6);
 border-radius: 2px;
 padding: 2px 8px;
@@ -2233,7 +2235,12 @@ ol.unstyled {
         z-index: 20;
         margin-left: -155px;
     }
-
+    
+    .modal-window .modal-close:after {
+        left :50%;
+        right: initial;
+        margin-left: 130px;
+    }
     
     /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
     #quote-carousel .carousel-indicators { bottom: -20px !important }
