@@ -35,12 +35,12 @@
 <link rel="SHORTCUT ICON" href="http://shinsai.mapping.jp/favicon.ico">
 </head>
 
-<body>
+<body onLoad="modalWindow()">
 
     <section class="modal-window" id="HPC">
         <div class="modal-inner">
             <p class="crowdFundingTxt">
-                クラウドファンディング実施中
+                クラウドファンディング実施中です！
             </p>
             <iframe scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:310px; height:390px;" allowtransparency="true"
                 src="https://www.makuake.com/widget/project/nagasaki-hiroshima-archive/"></iframe>
@@ -135,6 +135,13 @@ document.createElement('video');
 <script src="js/jquery.js">
 </script>
 -->
+
+    <script type="text/javascript">
+        function modalWindow(){
+            window.location.href = "#HPC" ;
+        }
+    </script>
+    
     <script src="js/jquery-1.8.3.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/hover-dropdown.js"></script>
