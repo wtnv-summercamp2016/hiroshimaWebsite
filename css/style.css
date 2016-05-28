@@ -89,9 +89,9 @@ margin-left: -155px;
 width: 310px;
 overflow-x: hidden;
 border-radius: 2px;
-background: rgba(0,0,0,0);
+background: rgba(0,0,0,0.5);
 -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
-box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
 }
 .modal-window .modal-inner p {
 padding: 0 20px;
@@ -109,7 +109,7 @@ left: 0;
 right: 0;
 bottom: 0;
 z-index: 10;
-background: rgba(0,0,0,0.5);
+background: rgba(0,0,0,0.4);
 }
 .modal-window .modal-close:after {
 content: '\00d7';
